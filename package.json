@@ -1,0 +1,27 @@
+{
+  "name": "jestbegin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "declareWinner.js",
+  "scripts": {
+    "test": "jest --coverage --watch"
+  },
+  "jest": {
+    "verbose": true,
+    "reporters": [
+      "default",
+      ["./node_modules/jest-html-reporter", {
+        "pageTitle": "Test Report"
+      }]
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.10.2"
+  }
+}
